@@ -1144,21 +1144,21 @@ function InvestorsContent({ setPage }) {
                    <Briefcase size={120} strokeWidth={1} className="text-emerald-900" />
                  </div>
                  <div className="relative z-10 flex-grow">
-                   <h3 className="text-3xl md:text-4xl font-light text-emerald-900 mb-2">Yagnik Waghela</h3>
-                   <p className="text-emerald-800 font-bold text-[11px] tracking-widest uppercase mb-10">Director (Investor Relations)</p>
+                   <h3 className="text-3xl md:text-4xl font-light text-emerald-900 mb-2">Dam Ngoc Tu</h3>
+                   <p className="text-emerald-800 font-bold text-[11px] tracking-widest uppercase mb-10">Deputy Director (Investor Relations, Global)</p>
                    <div className="space-y-6">
                      <a href="tel:+919920779198" className="flex items-center gap-4 text-emerald-900/80 hover:text-emerald-600 transition-colors">
                        <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm">
                          <Phone size={16} />
                        </div>
-                       <span className="text-[15px] font-medium">+91 99207 79198</span>
+                       <span className="text-[15px] font-medium">+84 0377279475</span>
                      </a>
                      <a href="mailto:yagnik@invadeagro.com" className="flex items-center gap-4 text-emerald-900/80 hover:text-emerald-600 transition-colors">
                        <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm">
                          <Mail size={16} />
                        </div>
                        <div className="flex flex-col">
-                         <span className="text-[15px] font-medium text-emerald-900">yagnik@invadeagro.com</span>
+                         <span className="text-[15px] font-medium text-emerald-900">tu@invadeagro.com</span>
                          <span className="text-[14px] text-emerald-900/70 mt-0.5">ir@invadeagro.com (Alt)</span>
                        </div>
                      </a>
