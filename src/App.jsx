@@ -996,7 +996,7 @@ function DecisionMakersContent({ setPage }) {
     { name: "Bhavin Kapadia", title: "Director - Funds (Global)" },
     { name: "Yagnik Waghela", title: "Director - Investor Relations" },
     { name: "Mahesh Mastan", title: "Director - Public Relations" },
-    { name: "Trevor D'souza", title: "Director - Operations" },
+    //{ name: "Trevor D'souza", title: "Director - Operations" },
     { name: "Hitesh Waghela", title: "CFO, India" }
   ];
 
