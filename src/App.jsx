@@ -989,7 +989,7 @@ function DecisionMakersContent({ setPage }) {
   usePageScroll();
 
   const boardMembers = [
-    { name: "Meenal S Patwardhan", title: "MD & Vice-Chairman, Asia" },
+    { name: "Meenal S Patwardhan", title: "MD & Vice-Chairman, Asia", website: "https://meenalpatwardhan.com" },
     { name: "Chirag Kotecha", title: "CEO & MD, Invade Mill" },
     { name: "Dr. MY Farooqui", title: "Additional Director" },
     { name: "Vishal Jamdade", title: "Director (Agro Inputs), India" },
@@ -1041,9 +1041,9 @@ function DecisionMakersContent({ setPage }) {
                  </div>
                  <h3 className="text-2xl lg:text-3xl font-light text-neutral-900 mb-2">Kamlesh M. Chotalia</h3>
                  <p className="text-[11px] font-bold tracking-widest text-emerald-600 uppercase mb-8">Executive Director & Chairman<br/>Kigali, Rwanda</p>
-                 <a href="https://www.linkedin.com/in/kc6666/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-3 text-white bg-emerald-900 hover:bg-emerald-800 px-8 py-4 rounded-full transition-all shadow-lg shadow-emerald-900/20 hover:shadow-xl hover:-translate-y-1">
-                   <Linkedin size={16} />
-                   <span className="text-[11px] font-bold tracking-widest uppercase">Connect</span>
+                 <a href="https://kamleshchotalia.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 text-white bg-emerald-900 hover:bg-emerald-800 px-8 py-4 rounded-full transition-all shadow-lg shadow-emerald-900/20 hover:shadow-xl hover:-translate-y-1">
+                   <Globe2 size={16} />
+                   <span className="text-[11px] font-bold tracking-widest uppercase">Website</span>
                  </a>
               </div>
               <div className="md:w-2/3 space-y-6 text-black/60 font-light text-[15px] md:text-[17px] leading-relaxed w-full">
@@ -1081,9 +1081,9 @@ function DecisionMakersContent({ setPage }) {
                     <p className="text-emerald-700/80 font-medium text-[11px] tracking-widest uppercase leading-relaxed max-w-[240px]">{member.title}</p>
                   </div>
                   <div className="mt-8 pt-6 border-t border-black/5 flex items-center justify-between">
-                    <a href="#" className="inline-flex items-center gap-2 text-black/30 hover:text-emerald-600 transition-colors">
-                      <Linkedin size={18} />
-                      <span className="text-[10px] font-bold tracking-widest uppercase">LinkedIn</span>
+                    <a href={member.website || "#"} target={member.website ? "_blank" : undefined} rel={member.website ? "noopener noreferrer" : undefined} className="inline-flex items-center gap-2 text-black/30 hover:text-emerald-600 transition-colors">
+                      {member.website ? <Globe2 size={18} /> : <Linkedin size={18} />}
+                      <span className="text-[10px] font-bold tracking-widest uppercase">{member.website ? "Website" : "LinkedIn"}</span>
                     </a>
                     <ArrowUpRight size={18} className="text-black/10 group-hover:text-emerald-500 transition-colors" />
                   </div>
