@@ -993,7 +993,7 @@ function DecisionMakersContent({ setPage }) {
     { name: "Chirag Kotecha", title: "CEO & MD, Invade Mill" },
     { name: "Dr. MY Farooqui", title: "Additional Director" },
     { name: "Vishal Jamdade", title: "Director (Agro Inputs), India" },
-    { name: "Bhavin Kapadia", title: "Director - Funds (Global)" },
+    { name: "Bhavin Kapadia", title: "Director - Funds (Global)", website: "https://bhavinkapadia.com/" },
     { name: "Yagnik Waghela", title: "Director - Investor Relations" },
     { name: "Mahesh Mastan", title: "Director - Public Relations" },
     { name: "Hitesh Waghela", title: "CFO, India" }
